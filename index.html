@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -15,42 +12,43 @@
         <script src="scripts/client.js"></script>
     </head>
     <body>
-        <!-- <div id="button">
-            <button id="submitButton" placeholder="Submit">Submit</button>         
-        </div> -->
-    <div id="input">
-        <input placeholder="First Name" id="first-name">
-        <input placeholder="Last Name" id="last-name">
-        <input placeholder="Id Number" id="id-number">
-        <input placeholder="Job Title" id="job-title">
-        <input placeholder="Annual Salary" id="annual-salary">
-        <!-- <button id="submitButton" placeholder="Submit">Submit</button>  -->
-    </div>  
-    <div id="button">
-        <button id="submitButton" placeholder="Submit">Submit</button>         
-    </div>
-    <div id="table-div">
-        <Table id="table">
-           <thead id="tableHead">
-              <tr id="tableHeader">
-                <th>First Name</th>
-                <th>Last Name</th>
-                <th>Id Number</th>
-                <th>Job Title</th>
-                <th>Annual Salary</th>
-              </tr>
-           </thead>    
-           <tbody id="tableBody">
-
-
-
-           </tbody>
-        </Table>    
-    </div>
+        <h1>Weekend Challenge</h1>  
+        <div id="input">
+            <input placeholder="First Name" id="first-name">
+            <input placeholder="Last Name" id="last-name">
+            <input placeholder="Id Number" id="id-number">
+            <input placeholder="Job Title" id="job-title">
+            <input placeholder="Annual Salary" id="annual-salary">
+            <button id="submitButton" placeholder="Submit">Submit</button> 
+        </div>  
+        
+    
+        <div id="table-div">
+            <Table id="table">
+            <thead id="tableHead">
+                <tr id="tableHeader">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Id Number</th>
+                    <th>Job Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thead>    
+            <tbody id="tableBody">
+                <!-- $('#tableBody').append(`<tr>
+                    <td>${employee.firstName}</td>
+                    <td>${employee.lastName}</td>
+                    <td>${employee.idNumber}</td>
+                    <td>${employee.jobTitle}</td>
+                    <td>${employee.annualSalary}</td>
+                    <td><button id='deleteButton'>Delete</button></td></tr>`); -->
+            </tbody>
+            </Table>    
+        </div>
         <h3 class="h3CostsDisplay">Monthly Costs:<span class="costsDisplay">0</span></h3>
     
     </body>
-        <!-- _employee first name, last name, ID number, job title, annual salary_. -->
-        <script src="" async defer></script>
-    </body>
+        
+    
 </html>
